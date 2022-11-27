@@ -1,3 +1,4 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id
+  # app/serializers/user_serializer.rb
+  attributes :username, :email
 end
