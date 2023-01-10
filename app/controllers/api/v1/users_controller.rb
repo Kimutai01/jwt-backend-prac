@@ -1,4 +1,5 @@
 class Api::V1::UsersController < ApplicationController
+    # path: app/controllers/api/v1/users_controller.rb
 
     skip_before_action :authorized, only: [:create]
 
